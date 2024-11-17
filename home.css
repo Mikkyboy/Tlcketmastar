@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.firstdiv {
+  width: 100%;
+  background: #2D2E35;
+  border: solid white;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-bottom: 0;
+  border: none;
+}
+
+.tdiv {
+  padding: 1em;
+  color: white;
+  font-size: 1.4em;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.flag {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  float: right;
+  border: solid white 1px;
+}
+
+.searchdiv {
+  width: 90%;
+  border-radius: 4px;
+  margin: auto;
+  background-color: #41424B;
+  padding-bottom: 1em;
+  padding-top: 0.1em;
+}
+
+.fstgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1em;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+
+.srchdiv {
+  margin: auto;
+}
+
+.srch {
+  font-size: 1em;
+  padding: 0.7em;
+  width: 80%;
+  margin: auto;
+  outline: none;
+  margin-left: 1.5em;
+}
+
+.srch::placeholder {
+  color: #3C3C3C;
+  font-size: 0.9em;
+}
+
+.fa-solid {
+  color: #585D95;
+  padding: 0.2em;
+  font-size: 1.2em;
+}
+
+.secdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  column-gap: 10px;
+  background-color: #2D2E35;
+  padding: 1em;
+  margin-top: 0;
+  border-top: solid #828282 .1px;
+}
+
+.null {
+  border: solid lightgrey .7px;
+  border-radius: 3px;
+  color: lightgray;
+  font-size: 1em;
+  padding: .6em;
+  text-align: center;
+}
+
+.pic {
+  width: 100%;
+}
+
+.gift {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #2F91FD;
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+
+.this {
+  margin-top: 0.5em;
+  padding-left: 1em;
+  line-height: 1.3em;
+  font-size: 0.9em;
+  color: #424242;
+}
+
+.dot {
+  width: .2em;
+  height: .2em;
+  background-color: #217AEE;
+  border: solid #217AEE;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.recent{ 
+  font-size: 1.2em;
+  color: black;
+  padding-left: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+}
+
+.jump {
+  padding-left: 1.6em;
+  margin-top: 0;
+  font-size: 0.9em;
+  color: #42445A;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  border: solid lightgray 1px;
+  border-radius: 2em;
+  width: 87%;
+  margin: auto;
+  padding: 0.5em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.rod {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.rodwave {
+  padding-left: 1em;
+  font-weight: 700;
+}
+
+.x {
+  border: none;
+  color: grey;
+  font-size: 1em;
+  border-radius: 50%;
+  width: 1.4em;
+  height: 1em;
+  text-align: center;
+  padding: 0;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+}
+
+.browse {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-left: 1.2em;
+  margin-top: 1.3em;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  padding: 0.3em;
+  border-radius: 3px;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65 );
+  bottom: 8px;
+  left: 8px;
+  font-size: 0.9em;
+}
+
+.trend {
+  margin-top: 1.5em;
+  margin-bottom: 1.8em;
+}
+
+.cncrt {
+  display: inline-block;
+  font-size: 1.05em;
+  padding-left: 1.5em;
+}
+
+.see {
+  display: inline-block;
+  float: right;
+  color: #2492EA;
+  padding-right: 2em;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 2.8fr;
+  width: 90%;
+  margin: auto;
+  border-bottom: solid lightgray 1px;
+}
+
+.pixdiv {
+  padding-bottom: 0;
+  height: 70%;
+  margin: auto;
+}
+
+.pix {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.name {
+  color: #2492EA;
+  padding-top: 0.7em;
+}
+
+.num {
+  font-size: 0.84em;
+  padding-left: 0.8em;
+  color: grey;
+}
+
+.txt {
+  padding: 0.6em;
+}

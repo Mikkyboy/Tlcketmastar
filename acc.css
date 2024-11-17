@@ -1,0 +1,100 @@
+body {
+  padding:  11em 0 0 0 ;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.first {
+  background-color: #2D2E35;
+  color: whitesmoke;
+  padding: 2em 0 1.5em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.myacc {
+  font-size: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  padding-left: 1.3em;
+  margin-top: 2em;
+  font-size: 1.3em;
+}
+
+.email {
+  padding-left: 1.6em;
+  padding-top: 0.3em;
+}
+
+.not {
+  padding-left: 1em;
+  font-size: 1.05em;
+  letter-spacing: 0.6px;
+}
+
+.general {
+  font-size: 1em;
+  padding: 0.2em 2em 0.2em 2em;
+  display: grid;
+  grid-template-columns: 0.6fr 4fr 1fr;
+  color: #42445A;
+  margin-bottom: 1em;
+}
+
+.mail {
+  font-size: 1.3em;
+}
+
+.greater {
+  float: right;
+}
+
+.blue {
+  background-color: #297EFF;
+  height: 17px;
+  width: 55%; 
+  border-radius: 10px;
+}
+
+.white {
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  float: right;
+  border-radius: 50%;
+  margin: 2px 2px;
+}
+
+.locate {
+  margin-top: 2.3em;
+}
+
+.bluegrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  font-size: 0.9em;
+  color: #359DE4;
+}
+
+.chicago {
+  padding-right: 0.4em;
+}
+
+.flag {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  float: right;
+  border: solid white 1px;
+  float: left;
+}
+
+.signdiv{
+  margin-top: 2.5em;
+  color: red;
+}

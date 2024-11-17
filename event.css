@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.first {
+  background-color: #16193C;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.help {
+  float: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #147BFF;
+  padding: 1em;
+  color: white;
+  border-bottom: solid white 3px;
+}
+
+.upcoming, .past {
+  text-align: center;
+  font-size: 1em;
+  height: 100%;
+  padding: 0;
+}
+
+.upcoming {
+  
+}
+
+.ticket {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
+    url('images/purdue.jpeg');
+  background-size: cover;
+  width: 93%;
+  height: 10em;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.tcknum {
+  font-size: .8em;
+}
+
+.down {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  padding-bottom: 0.6em;
+}
