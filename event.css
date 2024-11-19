@@ -1,7 +1,38 @@
 body {
-  padding: 0;
+  padding: 0 0 10em 0;
   margin: 0;
   font-family: sans-serif;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 3;
+  text-align: center;
+  padding: 1em;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bar {
+  text-decoration: none;
+  color: #8A8A8A;
+}
+
+.bartext {
+  font-size: 0.8em;
+  padding: 0.5em;
+  border: none;
+  color: #8A8A8A;
+}
+
+.icn {
+  color: #8A8A8A;
 }
 
 .first {

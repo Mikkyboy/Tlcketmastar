@@ -5,69 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<link rel="stylesheet" href="sell.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="sell.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css ">
 </head>
 
 <body>
-  <!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div> 
 
-  <!-- If we need navigation buttons 
+  <div class="nav">
+    <a class="bar" href="index.html">
+      <i class="icn fa-sharp fa-regular fa-magnifying-glass"></i> <br>
+      <span class="bartext present">
+        Home
+      </span>
+    </a>
+    <a class="bar" href="foryou.html">
+      <i class="icn fa-duotone fa-solid fa-heart-circle-check"></i> <br>
+      <span class="bartext">
+        For You
+      </span>
+    </a>
+    <a class="bar" href="event.html">
+      <i class="icn fa-sharp fa-solid fa-ticket"></i> <br>
+      <span class="bartext">
+        My Events
+      </span>
+    </a>
+    <a class="bar" href="sell.html">
+      <i class="icn fa-duotone fa-solid fa-money-bill-wave"></i> <br />
+      <span class="bartext">
+        Sell
+      </span>
+    </a>
+    <a class="bar" href="acc.html">
+      <i class="icn fa-duotone fa-solid fa-circle-user"></i> <br>
+      <span class="bartext">
+        My Account
+      </span>
+    </a>
+  </div>
+
+
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons 
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div> -->
 
-  <!-- If we need scrollbar 
+    <!-- If we need scrollbar 
   <div class="swiper-scrollbar"></div>-->
-</div>
-  
-  
+  </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script type="module">
-  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
-  const swiper = new Swiper(...)
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
-  const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+    const swiper = new Swiper(...)
+  </script>
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-</script>
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
 </body>
 
 </html>
