@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+}
+.ticket {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0.9em;
+  border-bottom: solid gray 0.6px;
+}
+
+.all {
+  padding-left: 0.5em;
+}
+
+.four {
+  padding: 0.5em;
+  color: #444444;
+}
+
+.spn {
+  padding: 0.5em;
+  color: #444444;
+}
+
+.sm {
+  color: #84858A;
+}
+
+.email {
+  padding: 1em 0 0 0.5em;
+  color: #84858A;
+}
+
+.same {
+  font-size: 1em;
+  padding: 1em;
+  margin: 0.2em 0 0.2em 0.5em;
+  border-radius: 0;
+  width: 80%;
+}
+
+.note {
+  font-size: 1em;
+  padding: 5em 1em 5em 1em; 
+  margin: 0.2em 0 0.2em 0.5em;
+  width: 80%;
+  border-radius: 0;
+}
+
+.down {
+  background-color: #D5D5D5;
+  padding: 1em 1em 1.8em 1em;
+  margin-top: 1em;
+}
+
+.back {
+  display: inline;
+  padding-left: 0.5em;
+  margin-top: 1em;
+  border: sold;
+  padding-top: 0.4em;
+}
+
+.btn {
+  float: right;
+  font-size: 0.9em;
+  padding: 0.7em 2em;
+  border-radius: 0;
+  background-color: #196AD3;
+  color: white;
+  border: none;
+}
+
+.null {
+  text-decoration: none;
+}
