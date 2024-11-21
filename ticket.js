@@ -13,7 +13,7 @@ const btnEl4 = document.getElementById('btn4');
 btnEl1.addEventListener('click', ()=> {
   trandivEl.classList.add('show');
   dropEl.classList.add('show');
-  console.log(trandivEl);
+
 })
 
 dropEl.addEventListener('click', ()=> {
