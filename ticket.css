@@ -218,7 +218,7 @@ body {
   position: absolute;
   height: 500px;
   bottom: 0;
-  z-index: 100;
+  z-index: 150;
   left: 0;
   right: 0;
   background-color: white;
@@ -300,6 +300,78 @@ body {
   transition: 0.3s ease;
 }
 
+.index {
+  z-index: 150;
+}
+
 .details {
   text-decoration: none;
+}
+
+.selectdiv {
+  position: absolute;
+  height: 500px;
+  bottom: 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  background-color: white;
+  display: none;
+}
+
+.second {
+  margin-top: 1.3em;
+  padding: 1.5em;
+  border: solid #6F6F6F 0.5px;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.sel {
+  float: right;
+}
+
+.seatgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-top: 1.3em;
+}
+
+.blue, .white {
+  background-color: #0E6AD1;
+  text-align: center;
+  color: white;
+  padding: 0.5em 1em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.white {
+  background-color: white;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 1.5em;
+}
+
+.gray{
+  margin-top: 3em;
+  padding: 1em;
+  background-color: #BEBEBE;
+  height: 1.8em;
+}
+
+.transferto {
+  float: right;
+  color: #0E6AD1;
+}
+
+.show {
+  display: block;
+  transition: 0.3s ease;
+}
+
+.index {
+  z-index: 150;
 }

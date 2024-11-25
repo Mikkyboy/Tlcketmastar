@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="ticket.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css ">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  
+
 
 </head>
 
@@ -26,8 +26,8 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      
-      
+
+
       <div class="swiper-slide">
         <div class="null">
           <div class="standard">
@@ -93,10 +93,10 @@
           </div>
         </div>
       </div>
-      
-      
-      
-      
+
+
+
+
       <div class="swiper-slide">
         <div class="null">
           <div class="standard">
@@ -162,77 +162,77 @@
           </div>
         </div>
       </div>
-      
-      
-      
-      
+
+
+
+
       <div class="swiper-slide">
-  <div class="null">
-    <div class="standard">
-      Standard Admission
-    </div>
-    <div class="griddiv">
-      <div class="grid">
-        SEC <br>
-        <span class="num">
-          107
-        </span>
-      </div>
-      <div class="grid">
-        ROW <br>
-        <span class="num">
-          3
-        </span>
-      </div>
-      <div class="grid">
-        SEAT <br>
-        <span class="num">
-          11
-        </span>
-      </div>
-    </div>
-    <div class="purdue">
-      <div class="down">
-        Purdue Boilermakers at Indiana Hoosiers <br>
-        Sat, Nov 30 ,TBA • Memorial stadium
-      </div>
-    </div>
-    <div class="zonediv">
-      <div class="zone">
-        UPPER LEVEL
-      </div>
-      <div class="view">
-        <i class="barcode fa-solid fa-barcode"></i>
-        View Ticket
-      </div>
-      <a class="barlink" href="tckdetail.html">
-        <div class="tckdetails">
-          Ticket Details
+        <div class="null">
+          <div class="standard">
+            Standard Admission
+          </div>
+          <div class="griddiv">
+            <div class="grid">
+              SEC <br>
+              <span class="num">
+                107
+              </span>
+            </div>
+            <div class="grid">
+              ROW <br>
+              <span class="num">
+                3
+              </span>
+            </div>
+            <div class="grid">
+              SEAT <br>
+              <span class="num">
+                11
+              </span>
+            </div>
+          </div>
+          <div class="purdue">
+            <div class="down">
+              Purdue Boilermakers at Indiana Hoosiers <br>
+              Sat, Nov 30 ,TBA • Memorial stadium
+            </div>
+          </div>
+          <div class="zonediv">
+            <div class="zone">
+              UPPER LEVEL
+            </div>
+            <div class="view">
+              <i class="barcode fa-solid fa-barcode"></i>
+              View Ticket
+            </div>
+            <a class="barlink" href="tckdetail.html">
+              <div class="tckdetails">
+                Ticket Details
+              </div>
+            </a>
+            <div class="tckmst">
+              tickermaster <span class="r">
+                <i class=" fa-sharp fa-regular fa-registered"></i>
+              </span>
+            </div>
+
+          </div>
+
+          <div class="dotdiv">
+            <div class="dot "></div>
+            <div class="dot"></div>
+            <div class="dot present"></div>
+            <div class="dot"></div>
+          </div>
+
+          <div class="btndiv">
+            <button id="btn3" class="transfer">Transfer</button>
+            <button class="sell">Sell</button>
+          </div>
         </div>
-      </a>
-      <div class="tckmst">
-        tickermaster <span class="r">
-          <i class=" fa-sharp fa-regular fa-registered"></i>
-        </span>
       </div>
 
-    </div>
 
-    <div class="dotdiv">
-      <div class="dot "></div>
-      <div class="dot"></div>
-      <div class="dot present"></div>
-      <div class="dot"></div>
-    </div>
-
-    <div class="btndiv">
-      <button id="btn3" class="transfer">Transfer</button>
-      <button class="sell">Sell</button>
-    </div>
-  </div>
-</div>
-      
-      
       <div class="swiper-slide">
         <div class="null">
           <div class="standard">
@@ -309,41 +309,96 @@
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
   </div>
-  
-  <div id="drop"  class="drop"></div>
-  
+
+  <div id="drop" class="drop"></div>
+
+  <div id="select" class="selectdiv">
+
+    <div class="trans">
+      SELECT TICKETS TO TRANSFER
+    </div>
+
+    <div id="second" class="second">
+      <span class="sec">
+        Sec 107, Row 3
+      </span>
+      <span class="sel">
+        <i class="fa-sharp fa-solid fa-ticket"></i>
+        Tickets Selected
+      </span>
+
+      <div class="seatgrid">
+        <div>
+
+          <div class="blue">SEAT 9</div>
+          <div class="white">
+            <input type="checkbox">
+          </div>
+
+        </div>
+        <div>
+          <div class="blue">SEAT 10</div>
+          <div class="white">
+            <input type="checkbox">
+          </div>
+        </div>
+
+        <div>
+          <div class="blue">SEAT 11</div>
+          <div class="white">
+            <input type="checkbox">
+          </div>
+        </div>
+
+        <div>
+          <div class="blue">SEAT 12</div>
+          <div class="white">
+            <input class="check" type="checkbox">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="gray">
+      <div id="trans" class="transferto">
+        TRANSFER TO >
+      </div>
+    </div>
+    
+  </div>
+
   <div id="trandiv" class="trandiv">
     <div class="trans">
       TRANSFER TO
     </div>
-    
+
     <br>
-    
+
     <a class="anc" href="">
-      Select From Contact 
+      Select From Contact
       <i class="fa-solid fa-user"></i>
     </a>
-    
+
     <br>
-    
+
     <a class="anc" href="details.html">
-      Manually Enter a Recipient 
+      Manually Enter a Recipient
       <i class="fa-solid fa-circle-plus"></i>
     </a>
-    
+
     <div class="telegramdiv">
       <div class="space">
-      <i class="tg fa-solid fa-paper-plane">
-      </i>
+        <i class="tg fa-solid fa-paper-plane">
+        </i>
       </div>
     </div>
-    
+
     <div class="transdiv">
       Transfer Tickets Via Email or Text Message
     </div>
-    
+
     <div class="seldiv">
-      Select an email or mobile number to transfer ticket to  your recipient 
+      Select an email or mobile number to transfer ticket to your recipient
     </div>
   </div>
 
@@ -380,7 +435,7 @@
       },
     });
   </script>
-  
+
   <script src="ticket.js"></script>
 
 </body>

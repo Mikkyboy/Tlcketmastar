@@ -10,16 +10,26 @@ const btnEl3 = document.getElementById('btn3');
 
 const btnEl4 = document.getElementById('btn4');
 
-btnEl1.addEventListener('click', ()=> {
-  trandivEl.classList.add('show');
-  dropEl.classList.add('show');
+const secondEl = document.getElementById('select');
 
+const transEl = document.getElementById('trans')
+
+btnEl1.addEventListener('click', ()=> {
+  secondEl.classList.add('show');
+  dropEl.classList.add('show');
+  console.log('hey');
 })
 
 dropEl.addEventListener('click', ()=> {
+  secondEl.classList.remove('show');
   trandivEl.classList.remove('show');
   dropEl.classList.remove('show');
 })
 
 
-console.log('hey');
+transEl.addEventListener('click', () => {
+  trandivEl.classList.add('index');
+  trandivEl.classList.add('show');
+  dropEl.classList.add('show');
+  console.log('hey');
+})
