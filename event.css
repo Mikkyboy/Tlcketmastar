@@ -74,7 +74,7 @@ body {
 .ticket {
   background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
-    url('images/purdue.jpeg');
+    url('images/bull.jpeg');
   background-size: cover;
   width: 93%;
   height: 10em;
