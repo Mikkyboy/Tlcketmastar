@@ -63,7 +63,7 @@ body {
 .purdue {
   background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
-    url('images/bull.jpeg');
+    url('images/texas.jpeg');
   background-size: cover;
   width: 100%;
   height: 10em;
